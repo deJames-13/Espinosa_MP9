@@ -153,7 +153,7 @@ Module ComputationModule
             type = "Retail"
         End If
 
-        Dim strInput As String = type & "/" & strName & "/" & strProdID & "/" & fPrice & "/" & fQuant & "/" & fShipCost & "/" & accExtras & "/" & fDisc & "/" & fDisc & "/" & fSubTot & "/" & fTax
+        Dim strInput As String = type & "/" & strName & "/" & strProdID & "/" & fPrice & "/" & fQuant & "/" & fShipCost & "/" & accExtras & "/" & fDisc & "/" & fSubTot & "/" & fTax & "/" & fTotal
         arrInfos.Add(strInput)
 
     End Sub
